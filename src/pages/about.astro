@@ -1,0 +1,74 @@
+---
+import MainHead from "../components/MainHead.astro";
+import Footer from "../components/Footer/index.jsx";
+import Nav from "../components/Nav/index.jsx";
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="Press Release | inFREQUENCY" description="Regional Electronic Artist Exchange" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>Press Release: inFREQUENCY</h1>
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="550"
+					src="/img/bg-banner.jpg"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+            
+            <p>The inFREQUENCY tour will bring together electronic musicians from the southeast and southwest for performances and workshops that showcase their different approaches.</p>
+        
+            <p><strong>“We’re literally overcoming the Great Dividing Range to visit locations in regional New South Wales,”</strong> says organiser Jason Richardson.</p>
+            
+            <p><strong>“Our aim is to create opportunities to share cutting-edge audio-visual art through live shows and workshops that will provide a behind-the-scenes perspective on the techniques being used.”</strong></p>
+            
+            <p>There will be demonstrations of video projection-mapping and live-coding that provide an introduction to free software in workshops before the performances dazzle and inspire audiences.</p>
+            
+            <p>Artists Scott Baker and Jason Richardson have two decades of experience in working together, including running projection-mapping workshops at Griffith Pioneer Park Museum in 2016.</p>
+            
+            <p>Both were part of the Unsound Festivals that ran in Wagga Wagga, which put Australia’s experimental musicians on the world stage.</p>
+            
+            <p>Baker has developed audio-visual art as Abre Ojos and his new techno persona Dron Skot, while Richardson’s work as Bassling has also gained national and international interest.</p>
+            
+            <p><strong>“This project began when I was enthusing to Scott how Bernard Gray was developing live-coding performance skills in Griffith with the DECODED workshops”</strong> says Jason.</p>
+            
+            <p><strong>“It brought to mind the skills in music-making and video-editing that I’d learned in Wagga, so we began planning a way to bring together this diverse group of musicians based in regional NSW.”</strong></p>
+            
+            <p><strong>“Scott identified artists Myst Mach and The DJ Ruined My Wedding Day from the South Coast and we thought it’d be great to create performance opportunities to develop skills for the musicians and the audiences, because you never know where the ideas and experiences can take you.”</strong></p>
+            
+            <p>Myst Mach is a young producer and DJ from Tathra who pulls together genres far and wide to mould them into a kinetic object in their own dancefloor-focused journeys.</p>
+            
+            <p>The DJ Ruined My Wedding Day will make you as giddy as a bride on their wedding day and build you up to only take you higher with their DJ set colliding old favourites with the best underground tunes.</p>
+            
+            <p>Baker and Richardson reflect how the skills they’ve developed came from experiments with technology, performance and exhibition.</p>
+            
+            <p><strong>“It’s great to get out and perform, but it’s even better to aim to inspire the next generation of regional artists through the workshops we are running,”</strong> says Jason.</p>
+            
+            <p>The inFREQUENCY tour is supported by the <a href="https://regionalartsnsw.com.au/the-backroads-initiative/">Backroads Initiative</a> and <a href="https://www.southeastarts.org.au/casp">South East Arts</a> through funding from <a href="https://www.create.nsw.gov.au/">Create NSW and the NSW Government</a>.</p>
+
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
