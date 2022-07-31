@@ -4,7 +4,7 @@ import Styles from './styles.module.scss';
 function Footer() {
 	return (
 		<footer className={Styles.footer}>
-			{new Date().getFullYear()}
+			&copy; 2022 inFREQUENCY Crew
 		</footer>
 	);
 }
