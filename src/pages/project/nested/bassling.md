@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/project.astro
-title: Bassling (Jason Richardson)
+title: Bassling [Leeton]
 client: Self
 publishDate: 2022-08-01 00:00:00
 img: "/img/bassling-banner.jpg"
