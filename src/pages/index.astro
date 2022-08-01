@@ -8,7 +8,7 @@ import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob("./project/**/*.md");
-const featuredProject = projects[1];
+const featuredProject = projects[Math.floor(Math.random() * projects.length)];
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
