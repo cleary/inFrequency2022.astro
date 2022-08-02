@@ -12,7 +12,7 @@ tags:
   - experimental
 ---
 
-Based in Bermagui on Djringanj land of the Yuin People on the far south coast, Baker is a multidisciplinary digital artist pushing pixels since when floppy disks were currency and CD-ROMs were too expensive. 
+**Dron Skot** aka Scott Baker is based in Bermagui on Djringanj land of the Yuin People on the far south coast, Baker is a multidisciplinary digital artist pushing pixels since when floppy disks were currency and CD-ROMs were too expensive. 
 
 Agile and adaptable, he works across live performance, audiovisual installation and large-scale projections exploring site-specific responses. 
 
