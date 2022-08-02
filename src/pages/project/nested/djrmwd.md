@@ -2,10 +2,10 @@
 layout: ../../../layouts/project.astro
 title: The DJ Ruined My Wedding Day [Bega]
 client: Self
-publishDate: 2022-08-02 00:00:00
+publishDate: 2022-07-31 00:00:00
 img: "/img/dj-banner.jpg"
 description: |
-  installation and large-scale projections exploring site-specific responses
+  ...Central to my work is sampling, appropriation and reclaiming public space
 tags:
   - audio
   - visual
