@@ -226,7 +226,7 @@ const featuredProject = () => projects[Math.floor(Math.random() * projects.lengt
                           return artists[Math.floor(Math.random() * artists.length)];
                         }
                     </script>
-                    <PortfolioPreview project={ projects[Math.floor(Math.random() * projects.length)] }
+                    <PortfolioPreview project={ projects[Math.floor(Math.random() * projects.length)] } client:load />
 					<div class="tac mt4">
 						<a href="/projects">
 							<Button>View All</Button>
