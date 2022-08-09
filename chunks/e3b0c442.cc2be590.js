@@ -1,0 +1,1 @@
+const t="_card_mrvio_1",_="_title_mrvio_8",n="_titleCard_mrvio_25",i="_desc_mrvio_32",o="_link_mrvio_37",r="_linkInner_mrvio_59",s="_nav_mrvio_71",a="_tags_mrvio_76",c="_tag_mrvio_76",e={card:t,title:_,titleCard:n,desc:i,link:o,linkInner:r,nav:s,tags:a,tag:c};export{e as S};
