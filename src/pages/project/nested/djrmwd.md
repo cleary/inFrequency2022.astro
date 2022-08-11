@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/project.astro
-title: The DJ Ruined My Wedding Day [Bega]
+title: DJ Ruined My Wedding Day [Bega]
 client: Self
 publishDate: 2022-07-31 00:00:00
 img: "/img/dj-banner.jpg"
@@ -12,7 +12,7 @@ tags:
   - experimental
 ---
 
-Guy No aka **The DJ Ruined My Wedding Day"** says
+Guy No aka **DJ Ruined My Wedding Day"** says
 
 > "...Central to my work is sampling, appropriation and reclaiming public space."
 
