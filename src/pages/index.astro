@@ -8,7 +8,7 @@ import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob("./project/**/*.md");
-const featuredProject = projects[3];
+const featuredProject = projects[0];
 //const featuredProject = () => projects[Math.floor(Math.random() * projects.length)];
 
 // Full Astro Component Syntax:
@@ -205,7 +205,8 @@ const featuredProject = projects[3];
 					<small class="subtitle">REGIONAL ELECTRONIC ARTIST EXCHANGE</small>inFREQUENCY
 				</h1>
 				<div>
-					<a href="https://www.eventbrite.com/e/infrequency-tickets-385269701047"><span class="role">Sign Up <span class="invert"> Sign Up</span></span></a>&nbsp;
+					<a href="https://www.eventbrite.com/e/infrequency-tickets-385269701047"><span class="role">Yanco Workshop<span class="invert"> Get Tickets!</span></span></a>&nbsp;
+					<a href="https://www.eventbrite.com/e/infrequency-navigate-arts-tanja-tickets-406136373827"><span class="role">Tanja Workshop<span class="invert"> Get Tickets!</span></span></a>&nbsp;
 					<a href="/about"><span class="role">Press Release <span class="invert"> Press Release</span></span></a>&nbsp;
 				</div>
 				<p class="desc">
@@ -237,7 +238,11 @@ const featuredProject = projects[3];
 					<h3 class="sectionTitle">About</h3>
 					<p class="bio">
 						<b>inFREQUENCY</b> is a pair of <b>Workshops</b> and <b>Performances</b> by cutting edge electronic Artists from the South Coast and Western NSW.</br>
-                        <a href="https://www.eventbrite.com/e/infrequency-tickets-385269701047" target="_blank" rel="nofollow">Tickets are now available</a> for the Western Riverina Worshops, running in Yanco, NSW (near Leeton/Griffith)
+                        Tickets are now available:
+                        <ul>
+                            <li><a href="https://www.eventbrite.com/e/infrequency-tickets-385269701047" target="_blank" rel="nofollow">Western Riverina Workshops</a>, running in Yanco, NSW (near Leeton/Griffith)</li>
+                            <li><a href="https://www.eventbrite.com/e/infrequency-tickets-385269701047" target="_blank" rel="nofollow">NSW South Coast Workshops</a> running in Tanja, NSW</li>
+                        </ul>
                     </p>
 					<p class="bio">
                         The inFREQUENCY tour is supported by the <a href="https://regionalartsnsw.com.au/the-backroads-initiative/">Backroads Initiative</a> and <a href="https://www.southeastarts.org.au/casp">South East Arts</a> through funding from <a href="https://www.create.nsw.gov.au/">Create NSW and the NSW Government</a>.

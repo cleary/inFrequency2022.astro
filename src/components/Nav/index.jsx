@@ -8,7 +8,10 @@ function Nav() {
 				<div className={Styles.monogram}>inF</div>
 			</a>
 			<a className={Styles.link} href="https://www.eventbrite.com/e/infrequency-tickets-385269701047">
-				Sign Up
+				Yanco
+			</a>
+			<a className={Styles.link} href="https://www.eventbrite.com/e/infrequency-navigate-arts-tanja-tickets-406136373827">
+				Tanja
 			</a>
 			<a className={Styles.link} href="/projects">
 				Meet the Artists
