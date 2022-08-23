@@ -1,6 +1,6 @@
 <script>
   import PortfolioPreview from "../PortfolioPreview/PortfolioPreview.svelte";
-	export let projects;
+  export let projects;
   const featuredProject = projects[Math.floor(Math.random() * projects.length)];
 </script>
 
