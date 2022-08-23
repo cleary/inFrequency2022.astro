@@ -2,7 +2,7 @@
 import MainHead from "../components/MainHead.astro";
 import Footer from "../components/Footer/index.jsx";
 import Nav from "../components/Nav/index.jsx";
-import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
+import PortfolioPreview from "../components/PortfolioPreview/PortfolioPreview.svelte";
 
 const projects = (await Astro.glob("./project/**/*.md"))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)

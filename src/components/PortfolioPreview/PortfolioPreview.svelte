@@ -1,3 +1,29 @@
+<script>
+  export let project;
+  const { frontmatter } = project || {};
+</script>
+
+<div class="card">
+  <div class="titleCard" style={`background-image:url(${frontmatter.img})`}>
+    <h1 class="title">{frontmatter.title}</h1>
+  </div>
+  <div class="pa3">
+    <p class="desc mt0 mb2">{frontmatter.description}</p>
+    <div class="tags">
+      Tagged:
+      {#each frontmatter.tags as tag}
+        <div class="tag" data-tag={tag}>
+          {tag}
+        </div>
+      {/each}
+    </div>
+    <a class="link" href={project.url}>
+      <span class="linkInner">View</span>
+    </a>
+  </div>
+</div>
+
+<style lang="scss">
 .card {
 	position: relative;
 	color: var(--t-bg);
@@ -71,11 +97,6 @@
 	transform: translateY(25%);
 }
 
-.nav {
-	display: flex;
-	justify-content: flex-end;
-}
-
 .tags {
 	font-size: var(--f-d2);
 	text-transform: uppercase;
@@ -100,3 +121,4 @@
 		color: var(--c-pink);
 	}
 }
+</style>

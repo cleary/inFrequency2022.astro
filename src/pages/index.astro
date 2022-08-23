@@ -4,12 +4,10 @@ import MainHead from "../components/MainHead.astro";
 import Button from "../components/Button/index.jsx";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
-import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
+import RandomProject from "../components/RandomProject/RandomProject.svelte";
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob("./project/**/*.md");
-const featuredProject = projects[0];
-//const featuredProject = () => projects[Math.floor(Math.random() * projects.length)];
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -221,13 +219,7 @@ const featuredProject = projects[0];
 			<div class="grid">
 				<div class="section">
 					<h3 class="sectionTitle">Meet the Artists</h3>
-                    <script is:inline>
-                        const artists = Array("bassling", "dron-skot", "bernard-gray", "djrmwd", "myst-mach");
-                        function randomArtist() {
-                          return artists[Math.floor(Math.random() * artists.length)];
-                        }
-                    </script>
-                    <PortfolioPreview project={ featuredProject } />
+					<RandomProject client:load projects={projects}/>
 					<div class="tac mt4">
 						<a href="/projects">
 							<Button>View All</Button>
