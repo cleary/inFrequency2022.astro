@@ -16,6 +16,7 @@
     "svelte": "^3.49.0"
   },
   "dependencies": {
+    "@astrojs/renderer-svelte": "^0.5.2",
     "preact": "^10.7.3"
   }
 }
