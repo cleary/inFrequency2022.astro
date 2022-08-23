@@ -1,5 +1,5 @@
 <script>
-	export let project;
+  export let project;
   const { frontmatter } = project || {};
 </script>
 
