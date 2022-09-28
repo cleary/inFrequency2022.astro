@@ -1,0 +1,59 @@
+---
+import MainHead from "../components/MainHead.astro";
+import Footer from "../components/Footer/index.jsx";
+import Nav from "../components/Nav/index.jsx";
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="Yanco | inFREQUENCY" description="Regional Electronic Artist Exchange" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>Yanco: inFREQUENCY</h1>
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="787"
+					src="/img/if-banner.jpg"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+            <p>The inFrequency tour rumbled through Yanco on a Saturday night as a diverse line-up brought their audiovisual performances to town.</p>
+
+            <p>Griffith's Bernard Gray shared his experience in live-coding at a workshop during the afternoon, then demonstrated the flexibility of this approach with a set that leapt from a jazzy opening into distorted beats before cooling off with a funky break that he seemed to materialise through programming on his keyboard.</p>
+
+            <p>Bassling brought a collection of synthesisers onstage to accompany video projections and audio-activated visuals.</p>
+
+            <p>Dron Skot's techno pummelled the sound system and brought a cheer from the Chinese restaurant next door. (Thanks Lee and Donny!)</p>
+
+            <p>DJ Ruined My Wedding Day walked a fine line between giving the crowd the pop music they thought they knew, then perverting it into hardcore rave.</p>
+
+            <p>Myst-Mach's performance began with an audience singalong to 'Promiscuous' by Nelly Furtado, then channeled the spirit of Sophie with a DJ set accompanied with dancing and manipulated video that looked like it came from an anal-fisting video.</p>
+
+            <p>The All Services Club provided a warm and friendly venue, as well as being enthusiastic in their support for the event.</p>
+
+            <p>The inFREQUENCY tour is supported by the <a href="https://regionalartsnsw.com.au/the-backroads-initiative/">Backroads Initiative</a> and <a href="https://www.southeastarts.org.au/casp">South East Arts</a> through funding from <a href="https://www.create.nsw.gov.au/">Create NSW and the NSW Government</a>.</p>
+
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
