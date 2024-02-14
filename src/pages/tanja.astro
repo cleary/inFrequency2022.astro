@@ -1,0 +1,69 @@
+---
+import MainHead from "../components/MainHead.astro";
+import Footer from "../components/Footer/index.jsx";
+import Nav from "../components/Nav/index.jsx";
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="Tanja | inFREQUENCY" description="Regional Electronic Artist Exchange" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>Tanja: inFREQUENCY</h1>
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="787"
+					src="/img/Tanja-stage.jpg"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+            <p>The inFrequency tour discovered the beautiful tiny town of Tanja on a warm Spring afternoon, rolling out at the glorious Navigate Arts old church venue.</p>
+
+            <p>Griffith's <a href="/project/nested/bernard-gray">Bernard Gray</a> took a group on a journey through his audio/visual live-coding toolkit during an afternoon workshop, later demonstrating the flexibility of this approach with a set that detonated hard off-kilter bending bass lines alongside shimmering layers of synthesised soundwaves, all wrapped in projected deconstructed visual patterns and images</p>
+
+            <p><a href="/project/nested/bassling">Bassling</a> all the way from Leeton, brought a collection of synthesisers onstage to accompany video projections and audio-activated visuals.</p>
+
+            <p><a href="/project/nested/dron-skot">Dron Skot</a> introduced the group to the concepts of Projection Mapping within the well suited angles of the Navigate Arts gabled church space, before being let loose to create a feast of industrial audio/visual techno</p>
+
+            <p><a href="/project/nested/djrmwd">DJ Ruined My Wedding Day</a> circumvented all the rules once again, choosing equal parts audience membership and raving DJ</p>
+
+            <p><a href="/project/nested/myst-mach">Myst-Mach's</a> set was a masterpiece of dance, costume, effects and beautifully remixed pop sensibilities</p>
+
+            <p>A huge thanks to Navigate Arts Tanja for their support, venue, hospitality and ambience. It was a night to cherish.</p>
+
+            <p><i>Bernard Gray</i></p>
+
+            <p>The inFREQUENCY tour is supported by the <a href="https://regionalartsnsw.com.au/the-backroads-initiative/">Backroads Initiative</a> and <a href="https://www.southeastarts.org.au/casp">South East Arts</a> through funding from <a href="https://www.create.nsw.gov.au/">Create NSW and the NSW Government</a>.</p>
+
+            <img src="/img/bernard-gray-workshop-tanja-2022-by-jason-richardson.jpg" alt="Bernard Gray Livecoding Workshop at Tanja by Jason Richardson" />
+            <img src="/img/scott-baker-workshop-tanja-2022-by-jason-richardson.jpg" alt="Scott Baker Projection Mapping Workshop at Tanja by Jason Richardson" />
+            <img src="/img/bernard-gray-at-tanja-2022-by-jason-richardson.jpg" alt="Bernard Gray at Tanja by Jason Richardson" />
+            <img src="/img/bassling-at-tanja-2022.jpg" alt="Jason Richardson at Tanja by Unknown" />
+            <img src="/img/dron-skot-at-tanja-2022-by-jason-richardson.jpg" alt="Dron Skot at Tanja by Jason Richardson" />
+            <img src="/img/dj-ruined-at-tanja-2022-by-jason-richardson.jpg" alt="DJ Ruined My Wedding Day at Tanja by Jason Richardson" />
+            <img src="/img/myst-mach-at-tanja-2022-by-jason-richardson.jpg" alt="Myst Mach at Tanja by Jason Richardson" />
+
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
