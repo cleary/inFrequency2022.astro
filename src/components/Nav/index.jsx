@@ -10,7 +10,7 @@ function Nav() {
 			<a className={Styles.link} href="/yanco">
 				Yanco
 			</a>
-			<a className={Styles.link} href="https://www.eventbrite.com/e/infrequency-navigate-arts-tanja-tickets-406136373827">
+			<a className={Styles.link} href="/tanja">
 				Tanja
 			</a>
 			<a className={Styles.link} href="/projects">
